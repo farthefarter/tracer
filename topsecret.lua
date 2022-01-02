@@ -222,7 +222,7 @@ end)
 if Success and not Errored then
     if _G.SendNotifications == true then
         game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "Exunys Developer";
+            Title = "Fludy.xyz";
             Text = "Tracer script has successfully loaded.";
             Duration = 5;
         })
@@ -230,7 +230,7 @@ if Success and not Errored then
 elseif Errored and not Success then
     if _G.SendNotifications == true then
         game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "Exunys Developer";
+            Title = "Fludy.xyz";
             Text = "Tracer script has errored while loading, please check the developer console! (F9)";
             Duration = 5;
         })
